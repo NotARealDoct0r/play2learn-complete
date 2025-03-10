@@ -31,6 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    # Built-in Django apps
     "django.contrib.admin",
     "django.contrib.auth",
     "django.contrib.contenttypes",
@@ -38,8 +39,9 @@ INSTALLED_APPS = [
     "django.contrib.messages",
     "django.contrib.staticfiles",
 
-    # local apps
-    "games.apps.GamesConfig"
+    # Local apps
+    "games.apps.GamesConfig",
+    "pages.apps.PagesConfig",
 ]
 
 MIDDLEWARE = [

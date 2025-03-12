@@ -8,4 +8,5 @@ urlpatterns = [
     # Local Apps
     path('', include('games.urls')),
     path('', include('pages.urls')),
+    path('reviews/', include('reviews.urls')),
 ]
